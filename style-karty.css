@@ -1,0 +1,72 @@
+*{
+    float: left;
+    font-family: system-ui;
+}
+
+body{
+    background: linear-gradient(to right, #1789FC, #E9C46A);
+    background-size: 500% 100%;
+    animation: gradientAnimation 10s linear infinite alternate-reverse;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.karta{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:250px;
+    padding:6px;
+    border:solid 2px white;
+    border-radius:10px;
+    min-width: 250px;
+    min-height: 400px;
+    max-width: 250px;
+    max-height: 400px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out;
+    background: linear-gradient(to right, #b7b7b7, #8a8a8a);
+    opacity: 0.95;
+    margin: 5px;
+    justify-content: center;
+    color: white;
+}
+
+.karta:hover {
+    transform: scale(0.95);
+    z-index: 1;
+}
+
+.kategoria{
+    border: 10px solid white;
+    border-radius: 100px;
+    padding: 50px;
+    margin: 20px;
+    display: inline;
+    color: white;
+}
+
+.obraz_karta{
+    width:100px;
+}
+
+.obraz_karta{
+    width:100px;
+    margin-top: 100px;
+}
+
+.obraz_karta2{
+    margin-top: 30px;
+}
