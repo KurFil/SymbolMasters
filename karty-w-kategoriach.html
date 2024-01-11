@@ -3,218 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zapoznanie Z Kartami</title>
-    <link rel="stylesheet" href="style-karty.css"> 
+    <title>Symbol Masters</title>
+    <link rel="stylesheet" href="style-karty.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
+	<script src="cursor.js"></script>
+	<div class="cursor"></div>
 
+	<video autoplay muted loop id="myVideo">
+    	<source src="./media/biale-tlo.mp4" type="video/mp4"/>
+    </video>
+	
+	<div class="tytuly_kategorii" style="margin-top: 100px;">Znaki Manipulacyjne</div>
 	<div class="kategoria">
-		<h2>Znaki Manipulacyjne</h2><br><br><br><br>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Artykuły szybko psujące 
 			<img src='icon/LowSpoilTime.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Przestrzegać zakresu temperatur
 			<img src='icon/przestrzegać zakresu temperatur.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Opakowanie hermetyczne
 			<img src='icon/znak-opakowanie-hermetyczne.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Tu chwytać 
 			<img src='icon/tu chwytac.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Chronić przed nagrzwaniem
 			<img src='icon/chronić przed nagrzaniem.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Miejsce zakładania, zawieszenia - znak umieszczany na opakowaniach w których należy zakładać zawiesia.
+		<div class='karta resizable'>
+			Miejsce zakładania, zawieszenia
 			<img src='icon/Miejce zakładania, zawieszania.png' class='obraz_karta'>
 		</div>
-		<div class='karta'>
-			Ostrożnie, kruche - Znak opakowań transportowych zawierające towary tłukące się i kruche.
+		<div class='karta resizable'>
+			Ostrożnie, kruche
 			<img src='icon/Ostrożnie kruche.png' class='obraz_karta'>
 		</div>
-		<div class='karta'>
-			Góra, nie przewracać - znak umieszcza się na opakowaniach których zmiana położenia spowoduje uszkodzenie zawartości.
+		<div class='karta resizable'>
+			Góra, nie przewracać
 			<img src='icon/góra nie przewracać.png' class='obraz_karta'>
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Chronić przed wilgocią
 			<img src='icon/Chronić przed wilgocią.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Nie podnosić wózkiem<br></br>Znak umieszcza się na opakowaniach transportowych, co do których nie należy stosować ręcznych wózków, gdyż można spowodować uszkodzenie opakowań i/lub zawartości.
+		<div class='karta resizable'>
+			Nie podnosić wózkiem
 			<img src='icon/NiePodnosic.png' class='obraz_karta obraz_karta2' />
 		</div>
-		<div class='karta'>
-			Nie toczyć. Znak umieszcza się na opakowaniach transportowych, których ze względu  na ich zwartość nie powinny być przemieszczane przez toczenie.
+		<div class='karta resizable'>
+			Nie toczyć
 			<img src='icon/Nie toczyć.png' class='obraz_karta'>
 		</div>
 	</div>
 
+	<div class="tytuly_kategorii">Znaki Niebezpieczeństwa</div>
 	<div class="kategoria">
-		<h2>Znaki Niebezpieczeństwa</h2><br><br><br><br>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał stwarzający ryzyko zakażanie 
 			<img src='icon/materiał stwarzający ryzyko zakażenie.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał zagrażający wybuchem
 			<img src='icon/materiała zagrażający wybuchem.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Materiał promieniotwórczy stwarzający zagrożenie nadmiernego napromienowia nawet z odległości 
+		<div class='karta resizable'>
+			Materiał promieniotwórczy stwarzający zagrożenie nadmiernego napromienowia
 			<img src='icon/Material-radioaktywny-promieniowanie.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał stwarzający zagrożenie wywołane żrącym działaniem
 			<img src='icon/materiał stwarzający zagrożenie wywołane żrącym działaniem.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał trujący
 			<img src='icon/materiał trujący.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał szkodliwy
 			<img src='icon/materiał szkodliwy.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Materiał stwarzający zagrożenie samozapłonnu
 			<img src='icon/oznakowanie substancji niebezpiecznej w transporciezap.png' class='obraz_karta'>
 		</div>
-		<div class='karta'>
-			Oznakowanie substancji niebezpiecznych w transporcie. Materiały stwarzające zagrożenie wzmożeniem intensywności pożaru.
+		<div class='karta resizable'>
+			Oznakowanie substancji niebezpiecznych w transporcie
 			<img src='icon/oznakowanie substancji niebezpiecznej w transporcie.png' class='obraz_karta'>
 		</div>
 	</div>
 
+	<div class="tytuly_kategorii">Znaki Informacyjne</div>
 	<div class="kategoria">
-		<h2>Znaki Informacyjne</h2><br><br><br><br>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Nie można bielić, chlorować 
 			<img src='icon/NieChlor.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Można bielić chlorować
 			<img src='icon/mozna-chlorowac.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Pranie z zachowaniem ostrożności w max 30 stopni 
 			<img src='icon/pranie-ostrozne-30-stopni.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Polietylen, najpopularniejsze tworzywa sztuczne, przetwarzalne, łatwe w recyklingu. Produkuje się z nich przede wszystkim plastikowe butelki na napoje, naczynia jednorazowego użytku. Takich opakowań nie podgrzewaj, nie wstawiaj na słońce ani nie wykorzystuj ponownie.
-			<img src='icon/polietylen.png' class='obraz_karta obraz_karta2' />
+		<div class='karta resizable'>
+			Polietylen
+			<img src='icon/polietylen.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Znak zgodności z dyrektywami UE
 			<img src='icon/CE.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Piktogram stosowany do oznakowania niebiezpiecznych ładunków
 			<img src='icon/piktogram.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			znak najwyższej jakości 
 			<img src='icon/Q.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Znak bezpieczeństwa
 			<img src='icon/Znak bezpieczeństwa.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Max temperatura prasowania 200 stopnia 
 			<img src='icon/Temperatura-prasowania-do-200-stopni.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Max temperatura prasowania 110 stopnia 
 			<img src='icon/maksymalna temperatura prasownia 110 stopni.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Nie prasować
 			<img src='icon/NiePrasowac.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Nie czyścić chemicznie 
 			<img src='icon/NCCH.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Pranie ręczne
 			<img src='icon/Pranie.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Czyścić tylko w benzynie używania do zabrudzeń ze smoły oraz tłustych plam
 			<img src='icon/czyscic  tylko w benzynie, używania to zabrudzeń ze smoły oraz tłustych plam.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Poliopropylen, nietoksyczny
 			<img src='icon/polipropylen.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			1. Suszyć w suszarce<br>2. Nie suszyć w suszarce<br>3. suszyć w niskiej temperaturze<br>4. Suszyć w normalnej temperaturze
-			<img src='icon/znaki.png' class='obraz_karta'" style="scale: 2.7;"/>
-		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Nie prać
 			<img src='icon/Nie prać.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Polichlorek winylu, może wydzielać toksyny, dlatego jego stosowanie w produkcji opakowań żywności zostało znacząco ograniczone.
-			<img src='icon/polichlorek.png' class='obraz_karta'>
-		</div>
 	</div>
 
+	<div class="tytuly_kategorii">Znaki Ekologiczne</div>
 	<div class="kategoria">
-		<h2>Znaki Ekologiczne</h2><br><br><br><br>
-		<div class='karta'>
-			Informuje że producent podczas paczkowania produktów zapewnił stosowanie systemu kontroli wewnętrznej ilości towaru paczkowanego
+		<div class='karta resizable'>
+			Producent zagwarantował zastosowanie systemu kontroli ilości towaru podczas pakowania produktów
 			<img src='icon/e.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			"Zielony punkt" - Informuje o tym, że producent wniósł opłatę za utylizację odpadów
 			<img src='icon/Zielonypkt.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Opakowanie nadaje się do recyklingu
 			<img src='icon/Recykling.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Dbaj o czystość
 			<img src='icon/Czystosc.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Oznaczenie produktów zawierają freonów które niszczą powłokę ozonową
 			<img src='icon/Ozon.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Odwrócony "epsilon" pojawia się na opakowaniach aerozolowych i oznajmia że produkt spełnia polskie i europejskie wymogi stawiane tego typu produktów
+		<div class='karta resizable'>
+			Odwrócony "epsilon" na opakowaniach aerozolowych oznacza zgodność z polskimi i europejskimi standardami dla tego typu produktów
 			<img src='icon/epsilon.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
-			Znak aluminium. Znak dla opakowań lub produktów, które są wykonane z alumminium i nadają się do recyklingu.
+		<div class='karta resizable'>
+			Znak aluminium
 			<img src='icon/alu.png' class='obraz_karta'>
 		</div>
 	</div>
 
+	<div class="tytuly_kategorii">Znaki Reklamowe</div>
 	<div class="kategoria">
-		<h2>Znaki Reklamowe</h2><br><br><br><br>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Teraz Polska
 			<img src='icon/Teraz_polska.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Poznaj Dobrą Żywność
 			<img src='icon/poznaj_dobra_zywnosc.png' class='obraz_karta' />
 		</div>
-		<div class='karta'>
+		<div class='karta resizable'>
 			Poznaj Dobrą Żywność
 			<img src='icon/Laur.png' class='obraz_karta' />
 		</div>
 	</div>
 
+	<button class="buttonek resizable" role="button" onclick="window.location.href='dnd-gra.html'">ROZPOCZNIJ GRĘ</button>
 </body>
 </html>
