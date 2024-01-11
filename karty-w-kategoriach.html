@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style-karty.css">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="SpowolnijVideo()">
 	<script src="cursor.js"></script>
 	<div class="cursor"></div>
 
 	<video autoplay muted loop id="myVideo">
-    	<source src="./media/biale-tlo.mp4" type="video/mp4"/>
+    	<source src="https://grabeznazwy.pages.dev/media/biale-tlo.mp4" type="video/mp4"/>
     </video>
 	
 	<div class="tytuly_kategorii" style="margin-top: 100px;">Znaki Manipulacyjne</div>
@@ -216,5 +216,11 @@
 	</div>
 
 	<button class="buttonek resizable" role="button" onclick="window.location.href='dnd-gra.html'">ROZPOCZNIJ GRĘ</button>
+
+            <script>
+                function SpowolnijVideo() {
+                  document.getElementById("myVideo").playbackRate = 0.25;
+                }
+            </script>
 </body>
 </html>
