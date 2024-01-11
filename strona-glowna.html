@@ -8,11 +8,11 @@
     </head>
 
     
-    <body>
+    <body onload="SpowolnijVideo()">
         <div class="cursor"></div>
 
         <video autoplay muted loop id="myVideo">
-            <source src="./media/biale-tlo.mp4" type="video/mp4"/>
+            <source src="https://grabeznazwy.pages.dev/media/biale-tlo.mp4" type="video/mp4"/>
         </video>
 
         <div id="wrapper">
@@ -25,5 +25,10 @@
             <div style="clear: both;"></div>
             <!--<button style="cursor: none;" id="how-to-play" class="btn big primary resizable" disabled>Jak grać</button>-->
         </div>
+            <script>
+                function SpowolnijVideo() {
+                  document.getElementById("myVideo").playbackRate = 0.5;
+                }
+            </script>
     </body>
 </html>
