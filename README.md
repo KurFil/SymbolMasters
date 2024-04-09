@@ -21,7 +21,7 @@ Symbol Masters to interaktywna gra edukacyjna, która ma na celu nauczenie użyt
 
 ## Link do gry
 
-Grę możesz pobrać [tutaj](https://github.com/KurFil/SymbolMasters/releases/tag/Release)
+Grę możesz pobrać [tutaj](https://github.com/KurFil/SymbolMasters/releases/tag/v1.1)
 
 ## Autorzy
 
