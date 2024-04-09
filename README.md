@@ -1,6 +1,6 @@
 # Symbol Masters
 
-> Interaktywna gra edukacyjna na temat symboli i oznaczeń przemysłowych oraz ochrony środowiska.
+Interaktywna gra edukacyjna na temat symboli i oznaczeń przemysłowych oraz ochrony środowiska.
 
 ## Opis
 
