@@ -21,7 +21,7 @@ Symbol Masters to interaktywna gra edukacyjna, która ma na celu nauczenie użyt
 
 ## Link do gry
 
-Link do gry [tutaj]()
+Link do gry znajdziesz: [tutaj]()
 
 ## Autorzy
 
